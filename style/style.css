@@ -85,7 +85,7 @@
  
 @media (max-width: 767px) {
     /* For mobile phones: */
-  [class*="col-"] {
+  div {
     width: 100%;
   }
 }
