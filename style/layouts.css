@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+    
+    main{
+        width: 969px;
+        margin:  auto;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20% ;
+        grid-template-rows: 100px 200px 250px 150px ;
+    }
+
+}
+
+@media (max-width: 767px) {
+    /* For mobile phones: */
+
+  main{
+    height: 767px;
+  }
+  div {
+    width: 100%;
+    float: left;
+
+  }
+
+}
