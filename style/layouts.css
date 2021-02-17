@@ -6,7 +6,12 @@
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20% ;
         grid-template-rows: 100px 200px 250px 150px ;
-    }
+        /* justify-items: center; 
+        align-content:center; */
+
+        
+      }
+      
 
 }
 
@@ -15,10 +20,13 @@
 
   main{
     height: 767px;
+
   }
   div {
     width: 100%;
     float: left;
+    /* vertical-align: middle; */
+
 
   }
 
