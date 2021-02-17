@@ -1,0 +1,105 @@
+
+@media (min-width: 768px) {
+    
+
+    .a{
+      grid-column: 1/6;
+      grid-row: 1/2;
+      
+      /* line-height: 60px; */
+       
+      }
+
+    .b{
+      grid-column: 1/2;
+      grid-row: 2/5;
+    }
+
+    .c{
+      grid-column: 2/4;
+      grid-row: 2/3;
+    }
+
+    .d{
+      grid-column: 4/6;
+      grid-row: 2/3;
+    }
+
+    .e{
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
+    
+    .f{
+      grid-column: 3/4;
+      grid-row: 3/4;
+    }
+
+    .g{
+      grid-column: 4/5;
+      grid-row: 3/4;
+    }
+    
+    .h{
+      grid-column: 5/6;
+      grid-row: 3/4;
+    }
+    
+    .i{
+      grid-column: 2/6;
+      grid-row: 4/5;
+    }
+  }
+
+
+  
+@media (max-width: 767px) {
+    /* For mobile phones: */
+
+
+  .a{
+      height: 75px;
+      /* background-color: blue; */
+  }
+
+  .b{
+    height: 150px;
+    /* background-color: rgb(167, 167, 233); */
+  }
+
+  .c , .d{
+    height: 125px;
+  }
+  .c{
+    /* background-color: rgb(212, 212, 233); */
+  }
+  
+  .d{
+    /* background-color: rgb(71, 71, 194); */
+  }
+  
+  .e , .f , .g , .h{
+    width: 50%;
+    height: 250px;
+  }
+  .e{
+    /* background-color: rgb(40, 40, 85); */
+  }
+  .f{
+    /* background-color: rgb(31, 150, 197); */
+  }
+  .g{
+    /* background-color: rgb(20, 20, 235); */
+  }
+  .h{
+    /* background-color: rgb(112, 112, 226); */
+  }
+  
+  
+  
+
+  .i{
+    height: 80px;
+    /* background-color: rgb(192, 219, 130); */
+  }
+}
